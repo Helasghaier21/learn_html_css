@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>john doe Frontend developer</title>
+  </head>
+  <body id="home">
+    <!--navbar-->
+    <header>
+      <a href="#" class="logo">john doe</a>
+      <nav class="navigation">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#work">work</a>
+        <a href="#resume">resume</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+    <section class="main">
+      <div>
+        <h2>Hello, I'm John Doe <br /><span>front-end developer</span></h2>
+        <a href="work" class="main-btn">view my work</a>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--about section-->
+    <section class="about" id="about">
+      <br />
+      <br />
+      <h2>about</h2>
+      <p>
+        Hello, my name is John Doe. I was born in October 1983 and I am an early
+        millenian, fond of driving and hiking. I appreciate a good meal, good
+        wine and due to my profession, a good espresso. After ten years of
+        working in sales and logistics, I decide to make a major change in my
+        professional career, so in late 2010, I started work in a challenging
+        field, as a front-end developer. I found out that freelancing means
+        tight deadlines, demanding clients and that I have to be a secretary,
+        salesman, marketer, all-in-one mean machine. It's challenging, but
+        that's why I switched gears! I want to be on top of my game and become
+        better in this area, so I am available to be hired part-time, full-time
+        or as a contractor for your awesome project. Download Resume
+      </p>
+    </section>
+
+    <!--work section-->
+    <section id="work">
+      <h2>what i do</h2>
+      <p>
+        Main services that I provide Business Website You are a recognized
+        company or a growing one, and want everyone to know about you? Having
+        your own website is a suitable choice for your business. You can promote
+        your products and services, all the time, without resorting to the
+        media. Personal Website You have skills, hobbies, passions and want
+        others to know about them? Are social networks not enough? Take your own
+        blog or web page. Maintenance & update Having a website means
+        maintenance. You'll need to be sure that your site is secure, backed up
+        and up to date. Never worry about if your plugins are up to date, your
+        website has been backed up or your site will be hacked. E-Commerce Want
+        to sell products or services online? Choosing an e-commerce website is
+        the fastest way.
+      </p>
+      <ul>
+        <li>Small Web Media | Mar 2016 - Oct 2018</li>
+        <li>Developed CRM system for managing companies clients</li>
+        <li>Maintained and improved companies web applications</li>
+        <li>Created markup and styles for newsletters</li>
+      </ul>
+    </section>
+
+    <!--resume section-->
+    <section id="resume">
+      <h2>eperience</h2>
+      <p>Junior Frontend Developer Big Solutions | Jun 2015 - Feb 2016</p>
+      <ul>
+        <li>Created user-friendly web pages</li>
+        <li>Maintained and improved companies website</li>
+      </ul>
+      <h2>education</h2>
+      <ul>
+        <li>IT Scool Hillel Frontend Basic Course | 2014</li>
+        <li>IT Scool Hillel Frontend Pro Course | 2015</li>
+      </ul>
+      <h2>skills</h2>
+      <p>
+        My Skills I am good at: I gained knowledge of HTML, CSS learning using
+        single site profile: Codecademy.com, Codeschool.com, Codecollege.ca,
+        Udemy.com, Freecodecamp.com and with the help of a friend and mentor,
+        that work in this field. Also, I learned how to develop a website using
+        the frameworks as Bootstrap and jQuery and content management system
+        (CMS), Wordpress. Now I focus on learning one programming language,
+        Javascript.
+      </p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>adaptiveness</li>
+        <li>cross-browser compatibility</li>
+        <li>CSS Preprocessors(SASS,SCSS,LESS)</li>
+        <li>javascript</li>
+        <li>jQuery</li>
+        <li>ES6</li>
+        <li>AJAX</li>
+        <li>unit testing</li>
+        <li>gulp, webpack</li>
+        <li>git</li>
+      </ul>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/VPvVD8t02U8?si=M5Gf_cD915xbulXH"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <!--contact section-->
+
+    <section id="contact">
+      <h2>contact</h2>
+      <label class="required" for="name">Your name:</label><br />
+      <input
+        id="name"
+        class="input"
+        name="name"
+        type="text"
+        value=""
+        size="30"
+      /><br />
+
+      <span id="name_validation" class="error_message"></span>
+
+      <label class="required" for="email">Your email:</label><br />
+      <input
+        id="email"
+        class="input"
+        name="email"
+        type="text"
+        value=""
+        size="30"
+      /><br />
+      <span id="email_validation" class="error_message"></span>
+
+      <label class="required" for="num phone">phone</label><br />
+      <input
+        id="phone"
+        class="input"
+        name="phone"
+        type="text"
+        value=""
+        size="30"
+      /><br />
+      <span id="phone_validation" class="error_message"></span>
+
+      <label class="required" for="message">Your message:</label><br />
+      <textarea
+        id="message"
+        class="input"
+        name="message"
+        rows="7"
+        cols="30"
+      ></textarea
+      ><br />
+      <span id="message_validation" class="error_message"></span>
+      <input id="submit_button" type="submit" value="Send" />
+    </section>
+
+    <!--footer section-->
+    <hr />
+    <section id="footer">
+      <i class="fa-brands fa-instagram fa-2x"></i>
+      <i class="fa-brands fa-whatsapp fa-2x"></i>
+      <i class="fa-brands fa-twitter fa-2x"></i>
+      <i class="fa-brands fa-linkedin fa-2x"></i>
+      <i class="fa-regular fa-copyright fa-2x"></i>
+    </section>
+  </body>
+</html>
